@@ -35,7 +35,7 @@ if user_inputted_word[3] == user_inputted_letter:
     count += 1
     print(user_inputted_letter + " found at index " + str(3))
 # check fifth character of word
-if user_inputted_word[4]==user_inputted_letter:
+if user_inputted_word[4] == user_inputted_letter:
     count += 1
     print(user_inputted_letter + " found at index " + str(4))
 
@@ -52,5 +52,3 @@ if count == 4:
     print("4 instances of " + user_inputted_letter + " found in " + user_inputted_word)
 if count == 5:
     print("5 instances of " + user_inputted_letter + " found in " + user_inputted_word)
-
-
