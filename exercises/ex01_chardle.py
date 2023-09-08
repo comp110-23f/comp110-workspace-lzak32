@@ -9,7 +9,7 @@ letter: str = input("Enter a single character: ")
 if len(letter)!=1:
     print("Error: Character must be a single character.")
     exit()
-
+    
 print("Searching for " + letter + " in " + word)
 
 count=0
@@ -36,5 +36,4 @@ if count==1:
 if count==2:
     print("2 instances of " + letter + " found in " + word)
 
-exit()
 
