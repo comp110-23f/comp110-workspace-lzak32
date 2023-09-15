@@ -13,7 +13,7 @@ user_inputted_letter: str = input("Enter a single character: ")
 if len(user_inputted_letter) != 1:
     print("Error: Character must be a single character.")
     exit()
-    
+
 print("Searching for " + user_inputted_letter + " in " + user_inputted_word)
 
 # initialize count
