@@ -2,7 +2,7 @@
 __author__ = "730679428"
 
 # initialize word to guess
-secret_word: str = "tit"
+secret_word: str = "python"
 
 # have user guess until they return a guess with a length of the secret word
 user_guess: str = input(f"What is your {len(secret_word)}-letter guess? ")
@@ -37,10 +37,10 @@ while index < len(secret_word):
             # iterate to next index
             index_check += 1
         # if the user guess letter did not exist at all in the secret word, add a white box
-        if letter_in_word == False:
+        if letter_in_word is False:
             emoji_output += WHITE_BOX
     # go to next character of secret word and user guess
-    index+=1
+    index += 1
 
 print(emoji_output)
 
