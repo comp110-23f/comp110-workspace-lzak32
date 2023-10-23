@@ -7,3 +7,15 @@ grocery_list.append('bread')
 grocery_list[1] = 'cereal'
 grocery_list.pop(2)
 print(grocery_list)
+
+h: str = 'h'
+i: str = 'i'
+j: str = h
+
+h = i
+i = j
+
+if h == j:
+    print('lab')
+else:
+    print('husky')
